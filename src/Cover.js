@@ -38,7 +38,8 @@ export const Cover = () => (
     <Center>
       <Img src={"./img/goat.png"} width={150} />
       <Title mt={20}>React Testing Library</Title>
-      <Subtitle mt={20}>RTL Everywhere</Subtitle>
+      <Title mt={20}>Kent C. Dodds</Title>
+      <Subtitle mt={40}>RTL Everywhere</Subtitle>
       <MeName mt={100}>Joao Marins</MeName>
     </Center>
   </Root>
