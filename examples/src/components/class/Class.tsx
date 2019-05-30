@@ -17,7 +17,7 @@ export default class Class extends React.Component {
     const { counter } = this.state;
     return (
       <ClassContainer>
-        <span data-testid="counter-head" >Counter</span>
+        <span data-testid="counter-head" >Class Counter</span>
         <span data-testid="counter-value" >{counter}</span>
         <button data-testid="counter-button" onClick={this.incrementCounter} >Count</button>
       </ClassContainer>

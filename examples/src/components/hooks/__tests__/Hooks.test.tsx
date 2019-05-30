@@ -1,20 +1,20 @@
 import React from 'react'
 import { render, waitForElement, fireEvent } from '@testing-library/react';
 
-import Class from '../Class';
+import Hooks from '../Hooks';
 
-describe('Class Tests', () => {
-  const { getByTestId, getByText } = render(<Class/>);
+describe('Hooks Tests', () => {
+  const { getByTestId, getByText } = render(<Hooks/>);
 
-  it('should render Class Component', async () => {
+  it('should render Hooks Component', async () => {
     const spanTextNode = await waitForElement(() =>
       getByTestId('counter-head'),
     );
 
-    expect(spanTextNode.textContent).toBe('Class Counter');
+    expect(spanTextNode.textContent).toBe('Hooks Counter');
   });
 
-  it('should check count value on mount', async () => {
+  it('should check count value on first render', async () => {
     const spanTextNode = await waitForElement(() =>
       getByTestId('counter-value'),
     );
