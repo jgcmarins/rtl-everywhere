@@ -4,7 +4,7 @@ import { render, waitForElement, fireEvent } from '@testing-library/react';
 import Class from '../Class';
 
 describe('Class Tests', () => {
-  const { getByTestId, getByText, container } = render(<Class/>);
+  const { getByTestId, getByText } = render(<Class/>);
 
   it('should render Class Component', async () => {
     const spanTextNode = await waitForElement(() =>
