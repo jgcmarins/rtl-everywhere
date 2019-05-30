@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Fetch Tests should check count value on first render 1`] = `
+<div
+  class="sc-bdVaJa kLZEci"
+>
+  <span
+    data-testid="fetch-head"
+  >
+    Fetch
+  </span>
+  <img
+    data-testid="fetch-img"
+    src="https://github.githubassets.com/images/icons/emoji/atom.png?v8"
+  />
+</div>
+`;
