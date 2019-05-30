@@ -11,7 +11,7 @@ export default class Class extends React.Component {
     counter: 0,
   };
 
-  incrementCount = () => this.setState({ counter: this.state.counter + 1 });
+  incrementCounter = () => this.setState({ counter: this.state.counter + 1 });
 
   render() {
     const { counter } = this.state;
@@ -19,7 +19,7 @@ export default class Class extends React.Component {
       <ClassContainer>
         <span data-testid="counter-head" >Counter</span>
         <span data-testid="counter-value" >{counter}</span>
-        <button data-testid="counter-button" onClick={this.incrementCount} >Count</button>
+        <button data-testid="counter-button" onClick={this.incrementCounter} >Count</button>
       </ClassContainer>
     );
   }
