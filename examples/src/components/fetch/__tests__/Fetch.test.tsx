@@ -30,7 +30,6 @@ describe('Fetch Tests', () => {
 
   it('should check count value on first render', async () => {
     // https://github.com/testing-library/react-testing-library/issues/281
-
     expect(container.firstChild).toMatchSnapshot()
   });
 });
